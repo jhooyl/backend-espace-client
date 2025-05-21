@@ -1,0 +1,25 @@
+[2025-04-05T12:04:20.153Z] INFO: 🕒 Service de simulation de consommation démarré
+[2025-04-05T12:06:27.856Z] INFO: 🕒 Service de simulation de consommation démarré
+[2025-04-05T12:08:11.582Z] INFO: 🕒 Service de simulation de consommation démarré
+[2025-04-05T12:10:10.413Z] INFO: 🕒 Service de simulation de consommation démarré
+[2025-04-06T09:00:00.224Z] INFO: ⏰ Exécution de la simulation du matin à 10h00
+[2025-04-06T09:00:02.069Z] ERROR: ❌ Erreur d'exécution: Error: Command failed: node C:\Users\User\OneDrive\Desktop\pfe\src\scripts\scripts\simulateDailyUsage.js
+node:internal/modules/cjs/loader:1228
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\User\OneDrive\Desktop\pfe\src\scripts\scripts\simulateDailyUsage.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.14.0
+
+[2025-04-06T14:34:28.530Z] INFO: 🕒 Service de simulation de consommation démarré
+[2025-04-08T10:15:38.487Z] INFO: 🕒 Service de simulation de consommation démarré
