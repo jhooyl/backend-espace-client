@@ -19,7 +19,10 @@ const app = express();
 
 // Middlewares
 app.use(cors({
-    origin: process.env.FRONTEND_URL,
+    origin: [
+        "https://espace-client-theta.vercel.app", 
+        "https://espace-client-theta.vercel.app/" // With/without trailing slas
+    ],
     credentials: true,
 }));
 app.use(express.json());
